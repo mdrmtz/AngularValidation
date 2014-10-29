@@ -23,8 +23,10 @@
         <h1>{{ today }}</h1>
         <h2>Welcome back {{ name }}</h2>
         <input ng-model="entryInput" type="text" placeholder="New Entry" />
+        <a class="btn btn-lg btn-success"  ng-href="#/signup">Signup</a>
       </div>
-    
+     <div ng-view=""></div>
+
 
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
@@ -81,6 +83,9 @@
         <script src="scripts/directives.js"></script>
         <script src="scripts/services.js"></script>
         <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/signup.js"></script>
+        <script src="scripts/directives/ensureunique.js"></script>
+        <script src="scripts/directives/ngfocus.js"></script>
         <!-- endbuild -->
 </body>
 </html>
