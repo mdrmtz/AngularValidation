@@ -20,9 +20,8 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
       <div ng-controller="DashboardController">
-        <h1>{{ today }}</h1>
         <h2>Welcome back {{ name }}</h2>
-        <input ng-model="entryInput" type="text" placeholder="New Entry" />
+
         <a class="btn btn-lg btn-success"  ng-href="#/signup">Signup</a>
       </div>
      <div ng-view=""></div>
