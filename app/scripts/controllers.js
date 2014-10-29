@@ -6,7 +6,7 @@ angular
   ]).controller('FrameController',
   		['$scope',function($scope){
   		$scope.today = new Date();
-  		$scope.name = 'Dude!';
+  		$scope.name = 'WF!';
   }])
   .controller('DashboardController',
   		['$scope', function($scope) {    
